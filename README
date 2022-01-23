@@ -1,0 +1,49 @@
+324CA Dumistracel Eduard-Costin
+
+-------------------------TASK1-----------------------------
+
+In task-ul de Sortarea albumelor am salvat fiecare pozitie
+a elementelor in stiva dand push de la cel mai mare elememt
+la cel mai mic (pozitia lor), urmand sa le iau apoi de pe
+stiva si sa le fac legaturile (next-urile) ca sa fie ordonate
+corespunzator.
+
+-------------------------TASK2-----------------------------
+
+CMMMC
+
+Pentru rezolvarea cmmmc-ului am aplicat formula urmatoare:
+    CMMMC = (A * B) / CMMDC
+Pentru aflarea cmmdc-ului
+    while(n != m) {
+        if(n > m){
+            n -= m
+        } else {
+            m -= n
+        }
+    }
+
+Paranteze
+
+Pentru rezolvarea acestei probleme avem un parametru care
+in caz ca avem "(" se incrementeaza si in caz ca avem ")"
+se decrementeaza. La final daca parametru e 0 atunci avem
+parantezele sunt corecte.
+
+-------------------------TASK3-----------------------------
+
+Pentru functia get_words am folosit strtok care a desparit
+cuvintele din text si le-am stocat apoi in vectorul de
+cuvinte.
+Pentru functia de sort am avut de implementat functia de
+comparare care compara lungimile si daca acestea sunt
+egale compara lexicografic.
+Apoi in functia sort am apelat qsort
+
+-----------------------Bonus CPUID-------------------------
+
+In functie de eax, comanda CPUID returneaza diferiti 
+parametrii si ca sa ii obtinem am facut prin shiftare si and
+si i-am stocat unde trebuie dupa.
+Pentru a vedea pozitia si ce fel de eax trebuie folosit am
+folosit wikipedia:)
